@@ -23,6 +23,7 @@ const darkMode = "black";
 console.log('====================================');
 console.log(userName);
 console.log(age);
+console.log(String(age));
 console.log(isStudent);
 console.log(noData);
 console.log(firstName);

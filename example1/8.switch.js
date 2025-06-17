@@ -1,7 +1,7 @@
 let switchBtn = document.getElementById("switch");
 let blub = document.getElementById("blub");
 
-switchBtn.addEventListener("click", () => {
+switchBtn.addEventListener("click", function () {
     console.log("Button clicked!");
     if(blub.style.backgroundColor === "yellow") {
         blub.style.backgroundColor = "black";

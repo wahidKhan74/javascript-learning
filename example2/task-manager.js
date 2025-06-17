@@ -2,6 +2,10 @@ let taskInput = document.getElementById("task-input");
 let addTaskBtn = document.getElementById("add-task");
 let taskList = document.getElementById("task-list");
 
+addTaskBtn.addEventListener("event", function(event) {
+    //logic
+})
+
 addTaskBtn.addEventListener("click", (event) => {
     let taskText = taskInput.value.trim();
     console.log("Button clicked ", taskText);
