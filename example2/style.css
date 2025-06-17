@@ -1,0 +1,37 @@
+.container {
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li {
+    width: 90%;
+  padding: 8px;
+  background: #f4f4f4;
+  margin: 10px 0;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
