@@ -38,3 +38,32 @@ console.log("emptyArray : ", emptyArray); // Output: [ 40, 50, 60 ]
 removedElement = emptyArray.shift(); // Removing the first element
 console.log("removedElement : ", removedElement); // Output: 40
 console.log("emptyArray : ", emptyArray); // Output: [ 50, 60 ]
+
+
+let numbers2 = [1, 2, 3, 4, 5]; // Another array of numbers
+let numbers3 = [6, 7, 8, 9, 10]; // Yet another array of numbers
+// Concatenating two arrays
+let concatenatedArray = numbers2.concat(numbers3); // Merging two arrays
+console.log("Concatenated Array: ", concatenatedArray); // Output: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+
+// Slicing an array
+let slicedArray = concatenatedArray.slice(2, 5); // Extracting a portion
+console.log("Sliced Array: ", slicedArray); // Output: [ 3, 4, 5 ]
+
+
+// Mapping an array
+let doubles = concatenatedArray.map(function(num) {
+    return num * 2; // Doubling each element
+});
+console.log("Doubled Array: ", doubles); // Output: [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+
+// Reducing an array
+let totalSum = concatenatedArray.reduce(function(accumulator, currentValue) {
+    return accumulator + currentValue; // Summing all elements
+}, 0);
+console.log("Total Sum: ", totalSum); // Output: 55
+
+
+// Joining an array into a string
+let joinedString = concatenatedArray.join(", "); // Joining elements with a comma
+console.log("Joined String: ", joinedString); // Output: "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
