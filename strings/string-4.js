@@ -1,5 +1,3 @@
-// Email Validator 
-let email = "   user@example.com   ";
 // Vaslidate email format : return true if valid, false otherwise
 function isValidEmail(email) {
     // Remove leading and trailing spaces
@@ -17,6 +15,8 @@ function isValidEmail(email) {
     return true; // Email is valid
 }
 
+// Email Validator 
+let email = "   user@example.com   ";
 // Check if the email is valid
 console.log("Is the email valid?", isValidEmail(email)); // true
 console.log("Is the email valid?", isValidEmail("user@domain")); // true
